@@ -57,8 +57,25 @@ $route['banding/(:any)'] = 'banding/view/$1' ;
 $route['upaya_hukum/(:any)'] = 'upayahukum/view/$1' ;
 $route['peraturan/(:any)'] = 'peraturan/view/$1' ;
 */
-$route['home/perlengkapan'] = 'perlengkapan';
+/* home */
 $route['home/kepegawaian'] = 'kepegawaian';
+$route['home/perlengkapan'] = 'perlengkapan';
+$route['home/persuratan'] = 'persuratan';
+$route['home/kinerja'] = 'kinerja';
+
+/* keberatan */
+$route['keberatan/keputusan_keberatan'] = 'keputusan_keberatan';
+$route['keberatan/permohonan_keberatan'] = 'permohonan_keberatan';
+
+/* banding */
+$route['banding/surat_uraian_banding'] = 'surat_uraian_banding';
+$route['banding/putusan'] = 'putusan';
+
+/* upaya hukum */
+
+/* peraturan */
+
+
 $route['(:any)'] = 'halaman/view/$1' ;
 
 $route['404_override'] = '';

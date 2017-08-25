@@ -85,7 +85,7 @@
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="<?php echo base_url("banding/SUB")?>"></i>SUB</a>
+            <a href="<?php echo base_url("banding/surat_uraian_banding")?>"></i>SUB</a>
           </li>
           <li>
             <a href="<?php echo base_url("banding/putusan")?>"></i>Putusan</a>
