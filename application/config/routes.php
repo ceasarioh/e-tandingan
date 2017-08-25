@@ -72,9 +72,12 @@ $route['banding/surat_uraian_banding'] = 'surat_uraian_banding';
 $route['banding/putusan'] = 'putusan';
 
 /* upaya hukum */
+$route['upaya_hukum/rekam_memori_PK'] = 'rekam_memori_PK';
+$route['upaya_hukum/rekam_putusan_PK'] = 'rekam_putusan_PK';
 
 /* peraturan */
-
+$route['peraturan/input_peraturan'] = 'input_peraturan';
+$route['peraturan/browse_peraturan'] = 'browse_peraturan';
 
 $route['(:any)'] = 'halaman/view/$1' ;
 
