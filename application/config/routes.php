@@ -64,18 +64,22 @@ $route['home/persuratan'] = 'persuratan';
 $route['home/kinerja'] = 'kinerja';
 
 /* keberatan */
+$route['keberatan/home'] = 'overview_keberatan';
 $route['keberatan/keputusan_keberatan'] = 'keputusan_keberatan';
 $route['keberatan/permohonan_keberatan'] = 'permohonan_keberatan';
 
 /* banding */
+$route['banding/home'] = 'overview_banding';
 $route['banding/surat_uraian_banding'] = 'surat_uraian_banding';
 $route['banding/putusan'] = 'putusan';
 
 /* upaya hukum */
+$route['upaya_hukum/home'] = 'overview_upaya_hukum';
 $route['upaya_hukum/rekam_memori_PK'] = 'rekam_memori_PK';
 $route['upaya_hukum/rekam_putusan_PK'] = 'rekam_putusan_PK';
 
 /* peraturan */
+$route['peraturan/home'] = 'overview_peraturan';
 $route['peraturan/input_peraturan'] = 'input_peraturan';
 $route['peraturan/browse_peraturan'] = 'browse_peraturan';
 
