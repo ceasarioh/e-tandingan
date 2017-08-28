@@ -19,7 +19,7 @@
       <!-- Sidebar TU -->
       <li class="treeview">
         <a href="#">
-          <i class="fa fa-circle-o"></i> <span>Tata Usaha</span>
+          <i class="fa fa-meh-o"></i> <span>Tata Usaha</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>
@@ -60,7 +60,7 @@
       <!-- Sidebar Keberatan -->
       <li class="treeview">
         <a href="#">
-          <i class="fa fa-circle-o"></i> <span>Keberatan</span>
+          <i class="fa fa-exclamation-triangle"></i> <span>Keberatan</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>
@@ -81,7 +81,7 @@
       <!-- Sidebar Banding -->
       <li class="treeview">
         <a href="#">
-          <i class="fa fa-circle-o"></i> <span>Banding</span>
+          <i class="fa fa-gavel"></i> <span>Banding</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>
@@ -102,7 +102,7 @@
       <!-- Sidebar Upaya Hukum -->
       <li class="treeview">
         <a href="#">
-          <i class="fa fa-circle-o"></i> <span>Upaya Hukum</span>
+          <i class="fa fa-balance-scale"></i> <span>Upaya Hukum</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>
@@ -123,7 +123,7 @@
       <!-- Sidebar Peraturan -->
       <li class="treeview">
         <a href="#">
-          <i class="fa fa-circle-o"></i> <span>Peraturan</span>
+          <i class="fa fa-newspaper-o"></i> <span>Peraturan</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>

@@ -4,7 +4,7 @@
 	<div class="col-md-3 col-sm-6 col-xs-12">
 		<div class="info-box">
 			<span class="info-box-icon bg-aqua">
-				<i class="ion ion-ios-gear-outline"></i>
+				<i class="fa fa-exclamation-triangle"></i>
 			</span>
 			<div class="info-box-content">
 				<span class="info-box-text">Keberatan</span>
@@ -15,7 +15,7 @@
 	<div class="col-md-3 col-sm-6 col-xs-12">
 		<div class="info-box">
 			<span class="info-box-icon bg-green">
-				<i class="ion ion-ios-gear-outline"></i>
+				<i class="fa fa-gavel"></i>
 			</span>
 			<div class="info-box-content">
 				<span class="info-box-text">Banding</span>
@@ -26,7 +26,7 @@
 	<div class="col-md-3 col-sm-6 col-xs-12">
 		<div class="info-box">
 			<span class="info-box-icon bg-red">
-				<i class="ion ion-ios-gear-outline"></i>
+				<i class="fa fa-balance-scale"></i>
 			</span>
 			<div class="info-box-content">
 				<span class="info-box-text">Upaya Hukum</span>
@@ -37,7 +37,7 @@
 	<div class="col-md-3 col-sm-6 col-xs-12">
 		<div class="info-box">
 			<span class="info-box-icon bg-yellow">
-				<i class="ion ion-ios-gear-outline"></i>
+				<i class="fa fa-newspaper-o"></i>
 			</span>
 			<div class="info-box-content">
 				<span class="info-box-text">Peraturan</span>
