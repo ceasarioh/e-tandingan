@@ -1,4 +1,4 @@
-$(function () {
+v$(function () {
   /* ChartJS
    * -------
    * Here we will create a few charts using ChartJS
@@ -84,16 +84,7 @@ $(function () {
   //-------------
   //- LINE CHART -
   //--------------
-  var lineChartCanvas          = $('#lineChart1').get(0).getContext('2d')
-  var lineChart                = new Chart(lineChartCanvas)
-  var lineChartOptions         = areaChartOptions
-  lineChartOptions.datasetFill = false
-  lineChart.Line(areaChartData, lineChartOptions)
-
-  //-------------
-  //- LINE CHART -
-  //--------------
-  var lineChartCanvas          = $('#lineChart2').get(0).getContext('2d')
+  var lineChartCanvas          = $('#lineChart').get(0).getContext('2d')
   var lineChart                = new Chart(lineChartCanvas)
   var lineChartOptions         = areaChartOptions
   lineChartOptions.datasetFill = false
