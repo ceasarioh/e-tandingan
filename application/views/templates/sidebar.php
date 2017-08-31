@@ -67,7 +67,11 @@
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="<?php echo base_url("keberatan/home")?>">Overview</a>
+            <a href="<?php echo base_url("keberatan/home")?>">Overview
+              <span class="pull-right-container">
+                <i class="fa fa-bar-chart pull-left"></i>
+              </span>
+            </a>
           </li>
           <li>
             <a href="<?php echo base_url("keberatan/permohonan_keberatan")?>">Permohonan Keberatan</a>
@@ -88,7 +92,11 @@
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="<?php echo base_url("banding/home")?>">Overview</a>
+            <a href="<?php echo base_url("banding/home")?>">Overview
+              <span class="pull-right-container">
+                <i class="fa fa-bar-chart pull-left"></i>
+              </span>
+            </a>
           </li>
           <li>
             <a href="<?php echo base_url("banding/surat_uraian_banding")?>"></i>SUB</a>
@@ -109,7 +117,11 @@
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="<?php echo base_url("upaya_hukum/home")?>">Overview</a>
+            <a href="<?php echo base_url("upaya_hukum/home")?>">Overview
+              <span class="pull-right-container">
+                <i class="fa fa-bar-chart pull-left"></i>
+              </span>
+            </a>
           </li>
           <li>
             <a href="<?php echo base_url("upaya_hukum/rekam_memori_PK")?>"></i>Rekam Memori PK</a>
@@ -130,7 +142,11 @@
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="<?php echo base_url("peraturan/home")?>">Overview</a>
+            <a href="<?php echo base_url("peraturan/home")?>">Overview
+              <span class="pull-right-container">
+                <i class="fa fa-bar-chart pull-left"></i>
+              </span>
+            </a>
           </li>
           <li>
             <a href="<?php echo base_url("peraturan/input_peraturan")?>"></i>Input Peraturan</a>
