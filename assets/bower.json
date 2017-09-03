@@ -32,7 +32,7 @@
   ],
   "dependencies": {
     "bootstrap-slider": "*",
-    "chart.js": "1.0.*",
+    "chart.js": "2.6",
     "ckeditor": "^4.7.0",
     "bootstrap-colorpicker": "^2.5.1",
     "bootstrap": "^3.3.7",
@@ -58,5 +58,8 @@
     "font-awesome": "^4.7.0",
     "Ionicons": "ionicons#^2.0.1",
     "jquery-ui": "1.11.4"
+  },
+  "resolutions": {
+    "jquery": "^3.2.1"
   }
 }
