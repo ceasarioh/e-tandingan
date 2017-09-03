@@ -121,7 +121,6 @@
 <!-- chart keberatan -->
 <script src="<?php echo base_url(); ?>chart/keberatan.js"></script>
 <!-- chart banding -->
-<script src="<?php echo base_url()."assets/"; ?>chart/banding.js"></script>
 
 
 

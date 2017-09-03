@@ -40,8 +40,6 @@ $(function () {
   }
 
   var areaChartOptions = {
-    //Boolean - If we should show the scale at all
-    showScale               : true,
     //Boolean - Whether grid lines are shown across the chart
     scaleShowGridLines      : false,
     //String - Colour of the grid lines
