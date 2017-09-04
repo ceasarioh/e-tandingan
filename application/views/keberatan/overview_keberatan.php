@@ -15,7 +15,7 @@
           </div>
           <div class="box-body">
             <div class="chart">
-              <canvas id="chart1k"></canvas>
+              <canvas id="myChart"></canvas>
             </div>
           </div>
           <!-- /.box-body -->
