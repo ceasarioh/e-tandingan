@@ -13,8 +13,7 @@ $(function() {
               fill                : false,
               lineTension         : 0.1,
               backgroundColor     : "rgba(75,192,192,0.4)",
-              borderColor         : "rgba(75,192,192,1)",
-              pointHighlightStroke: 'rgba(220,220,220,1)',
+              borderColor         : "#4bc0c0",
               data                : [452, 320, 436, 302, 415, 347, 370]
             },
             {

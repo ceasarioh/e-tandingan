@@ -116,7 +116,7 @@
 <!-- chart keberatan -->
 <script src="<?php echo base_url(); ?>chart/keberatan.js"></script>
 <!-- chart banding -->
-
+<script src="<?php echo base_url(); ?>chart/banding.js"></script>
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. -->
