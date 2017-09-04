@@ -53,24 +53,92 @@
             <h3 class="box-title"> Tabel IKU Kemenangan Banding 2017</h3>
           </div>
           <div class="box-body">
-            <table id="example2" class="table table-bordered table-striped">
+            <table id="banding" class="table table-bordered table-striped">
               <thead>
                 <tr>
-                  <th>Tempat Sidang</th>
-                  <th>Klasifikasi</th>
-                  <th>Nilai Pabean</th>
-                  <th>Total Klasifikasi</th>
-                  <th>Total Nilai Pabean</th>
-                  <th>Total Amar</th>
-                  <th>Capaian</th>
-
+                  <th rowspan="2" style="vertical-align: middle">Tempat Sidang</th>
+                  <th colspan="3" style="text-align: center">Klasifikasi</th>
+                  <th colspan="3" style="text-align: center">Nilai Pabean</th>
+                  <th rowspan="2" style="vertical-align: middle">Total Klasifikasi</th>
+                  <th rowspan="2" style="vertical-align: middle">Total Nilai Pabean</th>
+                  <th rowspan="2" style="vertical-align: middle">Total Amar</th>
+                  <th rowspan="2" style="vertical-align: middle">Capaian</th>
                 </tr>
                 <tr>
-
+                  <th>Menang</th>
+                  <th>Sebagian</th>
+                  <th>Kalah</th>
+                  <th>Menang</th>
+                  <th>Sebagian</th>
+                  <th>Kalah</th>
                 </tr>
               </thead>
               <tbody>
-
+                <tr>
+                  <td>Nasional</td>
+                  <td>54</td>
+                  <td>16</td>
+                  <td>205</td>
+                  <td>85</td>
+                  <td>14</td>
+                  <td>114</td>
+                  <td>275</td>
+                  <td>213</td>
+                  <td>488</td>
+                  <td>30.53</td>
+                </tr>
+                <tr>
+                  <td>KPU Priok</td>
+                  <td>54</td>
+                  <td>16</td>
+                  <td>205</td>
+                  <td>85</td>
+                  <td>14</td>
+                  <td>114</td>
+                  <td>275</td>
+                  <td>213</td>
+                  <td>488</td>
+                  <td>30.53</td>
+                </tr>
+                <tr>
+                  <td>Direktorat KBP</td>
+                  <td>54</td>
+                  <td>16</td>
+                  <td>205</td>
+                  <td>85</td>
+                  <td>14</td>
+                  <td>114</td>
+                  <td>275</td>
+                  <td>213</td>
+                  <td>488</td>
+                  <td>30.53</td>
+                </tr>
+                <tr>
+                  <td>Kanwil Jateng & DIY</td>
+                  <td>54</td>
+                  <td>16</td>
+                  <td>205</td>
+                  <td>85</td>
+                  <td>14</td>
+                  <td>114</td>
+                  <td>275</td>
+                  <td>213</td>
+                  <td>488</td>
+                  <td>30.53</td>
+                </tr>
+                <tr>
+                  <td>Kanwil Jatim I</td>
+                  <td>54</td>
+                  <td>16</td>
+                  <td>205</td>
+                  <td>85</td>
+                  <td>14</td>
+                  <td>114</td>
+                  <td>275</td>
+                  <td>213</td>
+                  <td>488</td>
+                  <td>30.53</td>
+                </tr>
               </tbody>
             </table>
           </div>
