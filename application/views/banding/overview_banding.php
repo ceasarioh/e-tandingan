@@ -89,55 +89,55 @@
                 </tr>
                 <tr>
                   <td>KPU Priok</td>
-                  <td>54</td>
-                  <td>16</td>
-                  <td>205</td>
-                  <td>85</td>
+                  <td>25</td>
                   <td>14</td>
-                  <td>114</td>
-                  <td>275</td>
-                  <td>213</td>
-                  <td>488</td>
-                  <td>30.53</td>
+                  <td>205</td>
+                  <td>53</td>
+                  <td>14</td>
+                  <td>106</td>
+                  <td>262</td>
+                  <td>173</td>
+                  <td>435</td>
+                  <td>24.21</td>
                 </tr>
                 <tr>
                   <td>Direktorat KBP</td>
-                  <td>54</td>
-                  <td>16</td>
-                  <td>205</td>
-                  <td>85</td>
-                  <td>14</td>
-                  <td>114</td>
-                  <td>275</td>
-                  <td>213</td>
-                  <td>488</td>
-                  <td>30.53</td>
+                  <td>8</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>11</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>10</td>
+                  <td>13</td>
+                  <td>23</td>
+                  <td>85.51</td>
                 </tr>
                 <tr>
                   <td>Kanwil Jateng & DIY</td>
-                  <td>54</td>
-                  <td>16</td>
-                  <td>205</td>
-                  <td>85</td>
-                  <td>14</td>
-                  <td>114</td>
-                  <td>275</td>
-                  <td>213</td>
-                  <td>488</td>
-                  <td>30.53</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>10</td>
+                  <td>10</td>
+                  <td>50</td>
                 </tr>
                 <tr>
                   <td>Kanwil Jatim I</td>
-                  <td>54</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>0</td>
                   <td>16</td>
-                  <td>205</td>
-                  <td>85</td>
-                  <td>14</td>
-                  <td>114</td>
-                  <td>275</td>
-                  <td>213</td>
-                  <td>488</td>
-                  <td>30.53</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>17</td>
+                  <td>20</td>
+                  <td>95</td>
                 </tr>
               </tbody>
             </table>
