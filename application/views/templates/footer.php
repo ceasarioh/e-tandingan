@@ -136,7 +136,9 @@ $(function () {
     'info'        : true,
     'autoWidth'   : true
   })
-})
+});
+
+
 </script>
 </body>
 </html>
