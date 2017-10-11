@@ -67,6 +67,7 @@ $route['home/kinerja'] = 'kinerja';
 $route['keberatan/home'] = 'overview_keberatan';
 $route['keberatan/keputusan_keberatan'] = 'keputusan_keberatan';
 $route['keberatan/permohonan_keberatan'] = 'permohonan_keberatan';
+$route['keberatan/tabel_datakeberatan'] = 'tabel_datakeberatan';
 
 /* banding */
 $route['banding/home'] = 'overview_banding';

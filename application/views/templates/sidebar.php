@@ -26,38 +26,28 @@
         </a>
         <ul class="treeview-menu">
             <li>
-              <a href="<?php echo base_url("home/kepegawaian")?>">Kepegawaian
-                <span class="pull-right-container">
-                  <i class="fa fa-drivers-license pull-left"></i>
-                </span>
+              <a href="<?php echo base_url("home/kepegawaian")?>"><i class="fa fa-circle-thin"></i>
+                Kepegawaian
               </a>
             </li>
             <li>
-              <a href="<?php echo base_url("home/perlengkapan")?>"></i> Perlengkapan
-                <span class="pull-right-container">
-                  <i class="fa fa-key pull-left"></i>
-                </span>
+              <a href="<?php echo base_url("home/perlengkapan")?>"><i class="fa fa-circle-thin"></i>
+                Perlengkapan
               </a>
             </li>
             <li>
-              <a href="<?php echo base_url("home/persuratan")?>"></i> Persuratan
-                <span class="pull-right-container">
-                  <i class="fa fa-envelope-open-o pull-left"></i>
-                </span>
+              <a href="<?php echo base_url("home/persuratan")?>"><i class="fa fa-circle-thin"></i>
+                Persuratan
               </a>
             </li>
             <li>
-              <a href="<?php echo base_url("home/kinerja")?>"></i> Kinerja
-                <span class="pull-right-container">
-                  <i class="fa fa-check-square-o pull-left"></i>
-                </span>
+              <a href="<?php echo base_url("home/kinerja")?>"><i class="fa fa-circle-thin"></i>
+                Kinerja
               </a>
             </li>
             <li>
-              <a href="<?php echo base_url("home/agenda")?>"></i> Agenda Direktur KBP
-                <span class="pull-right-container">
-                  <i class="fa fa-calendar pull-left"></i>
-                </span>
+              <a href="<?php echo base_url("home/agenda")?>"><i class="fa fa-circle-thin"></i>
+                Agenda Direktur KBP
               </a>
             </li>
         </ul>
@@ -73,17 +63,24 @@
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="<?php echo base_url("keberatan/home")?>">Overview
-              <span class="pull-right-container">
-                <i class="fa fa-bar-chart pull-left"></i>
-              </span>
+            <a href="<?php echo base_url("keberatan/home")?>"><i class="fa fa-circle-thin"></i>
+              Overview
             </a>
           </li>
           <li>
-            <a href="<?php echo base_url("keberatan/permohonan_keberatan")?>">Permohonan Keberatan</a>
+            <a href="<?php echo base_url("keberatan/permohonan_keberatan")?>"><i class="fa fa-circle-thin"></i>
+              Permohonan Keberatan
+            </a>
           </li>
           <li>
-            <a href="<?php echo base_url("keberatan/keputusan_keberatan")?>">Keputusan Keberatan</a>
+            <a href="<?php echo base_url("keberatan/keputusan_keberatan")?>"><i class="fa fa-circle-thin"></i>
+              Keputusan Keberatan
+            </a>
+          </li>
+          <li>
+            <a href="<?php echo base_url("keberatan/tabel_datakeberatan")?>"><i class="fa fa-circle-thin"></i>
+              Tabel Data
+            </a>
           </li>
         </ul>
       </li>
@@ -98,17 +95,19 @@
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="<?php echo base_url("banding/home")?>">Overview
-              <span class="pull-right-container">
-                <i class="fa fa-bar-chart pull-left"></i>
-              </span>
+            <a href="<?php echo base_url("banding/home")?>"><i class="fa fa-circle-thin"></i>
+              Overview
             </a>
           </li>
           <li>
-            <a href="<?php echo base_url("banding/surat_uraian_banding")?>"></i>SUB</a>
+            <a href="<?php echo base_url("banding/surat_uraian_banding")?>"><i class="fa fa-circle-thin"></i>
+              SUB
+            </a>
           </li>
           <li>
-            <a href="<?php echo base_url("banding/putusan")?>"></i>Putusan</a>
+            <a href="<?php echo base_url("banding/putusan")?>"><i class="fa fa-circle-thin"></i>
+              Putusan
+            </a>
           </li>
         </ul>
       </li>
@@ -123,17 +122,19 @@
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="<?php echo base_url("upaya_hukum/home")?>">Overview
-              <span class="pull-right-container">
-                <i class="fa fa-bar-chart pull-left"></i>
-              </span>
+            <a href="<?php echo base_url("upaya_hukum/home")?>"><i class="fa fa-circle-thin"></i>
+              Overview
             </a>
           </li>
           <li>
-            <a href="<?php echo base_url("upaya_hukum/rekam_memori_PK")?>"></i>Rekam Memori PK</a>
+            <a href="<?php echo base_url("upaya_hukum/rekam_memori_PK")?>"><i class="fa fa-circle-thin"></i>
+              Rekam Memori PK
+            </a>
           </li>
           <li>
-            <a href="<?php echo base_url("upaya_hukum/rekam_putusan_PK")?>"></i>Rekam Putusan PK</a>
+            <a href="<?php echo base_url("upaya_hukum/rekam_putusan_PK")?>"><i class="fa fa-circle-thin"></i>
+              Rekam Putusan PK
+            </a>
           </li>
         </ul>
       </li>
@@ -148,17 +149,19 @@
         </a>
         <ul class="treeview-menu">
           <li>
-            <a href="<?php echo base_url("peraturan/home")?>">Overview
-              <span class="pull-right-container">
-                <i class="fa fa-bar-chart pull-left"></i>
-              </span>
+            <a href="<?php echo base_url("peraturan/home")?>"><i class="fa fa-circle-thin"></i>
+              Overview
             </a>
           </li>
           <li>
-            <a href="<?php echo base_url("peraturan/input_peraturan")?>"></i>Input Peraturan</a>
+            <a href="<?php echo base_url("peraturan/input_peraturan")?>"><i class="fa fa-circle-thin"></i>
+              Input Peraturan
+            </a>
           </li>
           <li>
-            <a href="<?php echo base_url("peraturan/browse_peraturan")?>"></i>Browse Peraturan</a>
+            <a href="<?php echo base_url("peraturan/browse_peraturan")?>"><i class="fa fa-circle-thin"></i>
+              Browse Peraturan
+            </a>
           </li>
         </ul>
       </li>
