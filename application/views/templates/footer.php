@@ -104,6 +104,7 @@
 <script src="<?php echo base_url()."assets/"; ?>bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
 <!-- ChartJS -->
 <script src="<?php echo base_url()."assets/"; ?>bower_components/Chart.js/dist/Chart.js"></script>
+<script src="<?php echo base_url(); ?>bower_components/Chart.PieceLabel.js/src/Chart.PieceLabel.js"></script>
 <!-- SlimScroll -->
 <script src="<?php echo base_url()."assets/"; ?>bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->

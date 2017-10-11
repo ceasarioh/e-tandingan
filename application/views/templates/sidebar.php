@@ -19,7 +19,7 @@
       <!-- Sidebar TU -->
       <li class="treeview">
         <a href="#">
-          <i class="fa fa-meh-o"></i> <span>Tata Usaha</span>
+          <i class="fa fa-users"></i> <span>Tata Usaha</span>
           <span class="pull-right-container">
             <i class="fa fa-angle-left pull-right"></i>
           </span>
@@ -53,7 +53,13 @@
                 </span>
               </a>
             </li>
-
+            <li>
+              <a href="<?php echo base_url("home/agenda")?>"></i> Agenda Direktur KBP
+                <span class="pull-right-container">
+                  <i class="fa fa-calendar pull-left"></i>
+                </span>
+              </a>
+            </li>
         </ul>
       </li>
 

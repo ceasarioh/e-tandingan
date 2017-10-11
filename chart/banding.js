@@ -42,13 +42,13 @@ $(function(){
     });
 
     var ctx = document.getElementById("chartb2");
-    var myPieChart = new Chart(ctx, {
+    var myChart = new Chart(ctx, {
       type: 'pie',
       data: {
         labels: ["KBP", "Priok", "Jatim", "Jateng"],
         datasets: [
           {
-            data: [10, 20, 30, 40],
+            data: [67.01, 36.01, 65.52, 63.56],
             backgroundColor: [
               'rgba(255, 99, 132, 0.2)',
               'rgba(54, 162, 235, 0.2)',
@@ -57,7 +57,14 @@ $(function(){
             ]
           }]
       },
-      options: {}
+      options: {
+        pieceLabel: {
+          render: function(args) {
+              return args.value + '%';
+          }
+
+        }
+      }
     });
 
 })
