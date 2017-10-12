@@ -111,6 +111,10 @@
 <script src="<?php echo base_url()."assets/"; ?>bower_components/fastclick/lib/fastclick.js"></script>
 <!-- AdminLTE App -->
 <script src="<?php echo base_url()."assets/"; ?>dist/js/adminlte.min.js"></script>
+<!-- FullCalendar & Moment -->
+<script src="<?php echo base_url()."assets/"; ?>bower_components/moment/moment.js"></script>
+<script src="<?php echo base_url()."assets/"; ?>bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+<script src="<?php echo base_url()."assets/"; ?>bower_components/fullcalendar/dist/gcal.js"></script>
 
 <!-- CHARTS -->
 
@@ -118,6 +122,7 @@
 <script src="<?php echo base_url(); ?>chart/keberatan.js"></script>
 <!-- chart banding -->
 <script src="<?php echo base_url(); ?>chart/banding.js"></script>
+
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. -->
@@ -136,10 +141,22 @@ $(function () {
     'ordering'    : true,
     'info'        : true,
     'autoWidth'   : true
-  })
+  });
+
+
 });
-
-
 </script>
+
+<!-- calendar -->
+<script>
+$(function() {
+
+  $('#calendar').fullCalendar({
+    aspectRatio: 2.8
+  });
+
+});
+</script>
+
 </body>
 </html>

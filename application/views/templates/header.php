@@ -20,6 +20,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="<?php echo base_url('assets/bower_components/Ionicons/css/ionicons.min.css')?>">
   <!-- DataTables -->
   <link rel="stylesheet" href="<?php echo base_url('assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css')?>">
+  <!-- FullCalendar -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/bower_components/fullcalendar/dist/fullcalendar.min.css')?>">
+  <link rel="stylesheet" href="<?php echo base_url('assets/bower_components/fullcalendar/dist/fullcalendar.print.min.css')?>" media="print">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo base_url('assets/dist/css/AdminLTE.min.css')?>">
   <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
