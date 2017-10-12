@@ -115,13 +115,14 @@
 <script src="<?php echo base_url()."assets/"; ?>bower_components/moment/moment.js"></script>
 <script src="<?php echo base_url()."assets/"; ?>bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
 <script src="<?php echo base_url()."assets/"; ?>bower_components/fullcalendar/dist/gcal.js"></script>
-
+<script src="<?php echo base_url()."assets/"; ?>/dist/js/calendar.js"></script>
 <!-- CHARTS -->
 
 <!-- chart keberatan -->
 <script src="<?php echo base_url(); ?>chart/keberatan.js"></script>
 <!-- chart banding -->
 <script src="<?php echo base_url(); ?>chart/banding.js"></script>
+<!-- calendar -->
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
@@ -148,15 +149,6 @@ $(function () {
 </script>
 
 <!-- calendar -->
-<script>
-$(function() {
-
-  $('#calendar').fullCalendar({
-    aspectRatio: 2.8
-  });
-
-});
-</script>
 
 </body>
 </html>
