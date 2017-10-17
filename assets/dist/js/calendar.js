@@ -1,23 +1,31 @@
 $(function() {
 
   $('#calendar').fullCalendar({
+    locale: 'id',
     aspectRatio: 2.8,
+    views: {
+          month: {
+              columnFormat: 'dddd'
+          }
+    },
     eventSources: [
       {
-          color: '#18b9e6',
-          textColor: '#000000',
-          events: [
-                    {
-                        title: 'Event 1',
-                        start: '2017-03-13'
-                    },
-                    {
-                        title: 'Event 2',
-                        start: '2017-03-19'
-                    }
-
-                  ]
-      }
+          events: function(start, end, timezone, callback) {
+              $.ajax({
+              url: 'agenda/get_events',
+              dataType: 'json',
+              data: {
+               // our hypothetical feed requires UNIX timestamps
+               start: start.unix(),
+               end: end.unix()
+               },
+               success: function(msg) {
+                   var events = msg.events;
+                   callback(events);
+               }
+             });
+          }
+      },
     ]
   });
 

@@ -115,7 +115,7 @@
 <script src="<?php echo base_url()."assets/"; ?>bower_components/moment/moment.js"></script>
 <script src="<?php echo base_url()."assets/"; ?>bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
 <script src="<?php echo base_url()."assets/"; ?>bower_components/fullcalendar/dist/gcal.js"></script>
-<script src="<?php echo base_url()."assets/"; ?>/dist/js/calendar.js"></script>
+<script src="<?php echo base_url()."assets/"; ?>bower_components/fullcalendar/dist/locale-all.js"></script>
 <!-- CHARTS -->
 
 <!-- chart keberatan -->
@@ -123,7 +123,7 @@
 <!-- chart banding -->
 <script src="<?php echo base_url(); ?>chart/banding.js"></script>
 <!-- calendar -->
-
+<script src="<?php echo base_url()."assets/"; ?>/dist/js/calendar.js"></script>
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. -->

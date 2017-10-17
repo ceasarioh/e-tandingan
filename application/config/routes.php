@@ -62,7 +62,7 @@ $route['home/kepegawaian'] = 'kepegawaian';
 $route['home/perlengkapan'] = 'perlengkapan';
 $route['home/persuratan'] = 'persuratan';
 $route['home/kinerja'] = 'kinerja';
-$route['home/agenda'] = 'agenda';
+$route['home/agenda'] = 'calendar';
 
 /* keberatan */
 $route['keberatan/home'] = 'overview_keberatan';
